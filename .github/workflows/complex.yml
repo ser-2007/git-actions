@@ -16,7 +16,7 @@ jobs:
     steps:
     - run: date
   depends:
-    needs: [ubuntu, windows, masos]
+    needs: [ubuntu, windows, macos]
     runs-on: 
     steps:
     - run: date
