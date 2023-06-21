@@ -4,7 +4,7 @@ om: push
 
 jobs:
   ubuntu: 
-    runs-on: unumtu-latest
+    runs-on: ubuntu-latest
     steps:
     - run: date
   windows:
